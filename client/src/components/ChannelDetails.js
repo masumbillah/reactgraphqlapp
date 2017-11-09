@@ -52,7 +52,7 @@ class ChannelDetails extends Component {
     return (
       <div>
         <div className="channelName">
-          {channel.name}
+            {channel.name} <button >Add </button>
         </div>
         <MessageList messages={channel.messages}/>
       </div>);
